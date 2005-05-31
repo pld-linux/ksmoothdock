@@ -1,4 +1,5 @@
-Summary:	KSmoothDock is a cool desktop panel
+Summary:	KSmoothDock - a cool desktop panel
+Summary(pl):	KSmoothDock - przyjemny panel dla pulpitu
 Name:		ksmoothdock
 Version:	3.5.1
 Release:	0.1
@@ -8,9 +9,9 @@ Source0:	http://dl.sourceforge.net/ksmoothdock/%{name}-%{version}.tar.gz
 # Source0-md5:	df2bcbbafbf0726db802c6434012eb7c
 URL:		http://kde-look.org/content/show.php?content=6585
 BuildRequires:	kdelibs-devel
-BuildRequires:	qt-devel
-BuildRequires:	libpng-devel
 BuildRequires:	libjpeg-devel
+BuildRequires:	libpng-devel
+BuildRequires:	qt-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
@@ -18,6 +19,13 @@ KSmoothDock is a cool desktop panel (like KDE's kicker) for KDE 3.2
 with smooth zooming (2 modes: normal and parabolic). Its aim is to
 provide a cool alternative/complement to kicker. As it is intended for
 KDE/Linux, its behaviour will be like that of kicker.
+
+%description -l pl
+KSmoothDock to przyjemny panel dla pulpitu (podobnie jak kicker z KDE)
+dla KDE 3.2 z g³adkim powiêkszaniem (2 tryby: normalny i
+paraboliczny). Jego celem jest dostarczenie alternatywy/dope³nienia
+dla kickera. Jako ¿e jest przeznaczony dla Linuksa z KDE, zachowanie
+przypomina kickera.
 
 %prep
 %setup -q
