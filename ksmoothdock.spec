@@ -5,7 +5,7 @@ Version:	3.6.1
 Release:	2
 License:	GPL v2
 Group:		X11/Applications
-Source0:	http://surfnet.dl.sourceforge.net/ksmoothdock/%{name}-%{version}.tar.gz
+Source0:	http://dl.sourceforge.net/ksmoothdock/%{name}-%{version}.tar.gz
 # Source0-md5:	f6d69c5d74de55f86bdc92e835df6cb8
 URL:		http://kde-look.org/content/show.php?content=6585
 BuildRequires:	kdelibs-devel
