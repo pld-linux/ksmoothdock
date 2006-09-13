@@ -1,12 +1,12 @@
 Summary:	KSmoothDock - a cool desktop panel
 Summary(pl):	KSmoothDock - przyjemny panel dla pulpitu
 Name:		ksmoothdock
-Version:	4.0.1
+Version:	4.1
 Release:	1
 License:	GPL v2
 Group:		X11/Applications
 Source0:	http://dl.sourceforge.net/ksmoothdock/%{name}-%{version}.tar.gz
-# Source0-md5:	e57dd4992b380297a5c18f82fc5480c7
+# Source0-md5:	8317488fba35454c888700b80ce1f0e8
 URL:		http://www.kde-look.org/content/show.php?content=6585
 BuildRequires:	kdelibs-devel
 BuildRequires:	libjpeg-devel
@@ -31,6 +31,7 @@ przypomina kickera.
 %setup -q -n %{name}
 
 %build
+%{__make} -f admin/Makefile.common cvs
 %configure \
 	--with-qt-libraries=%{_libdir} \
 	--disable-rpath
