@@ -1,12 +1,13 @@
+%define		_automakever	automake1.9
 Summary:	KSmoothDock - a cool desktop panel
 Summary(pl):	KSmoothDock - przyjemny panel dla pulpitu
 Name:		ksmoothdock
-Version:	4.2
+Version:	4.3
 Release:	1
 License:	GPL v2
 Group:		X11/Applications
-Source0:	http://dl.sourceforge.net/ksmoothdock/%{name}-%{version}_automake1.9.tar.gz
-# Source0-md5:	3ce274c20950f028ddf15c282900db98
+Source0:	http://dl.sourceforge.net/ksmoothdock/%{name}-%{version}_%{_automakever}.tar.gz
+# Source0-md5:	fa75237f0b1102d31dc2b60304ab59fc
 URL:		http://www.kde-look.org/content/show.php?content=6585
 BuildRequires:	kdelibs-devel
 BuildRequires:	libjpeg-devel
@@ -28,7 +29,7 @@ dla kickera. Jako ¿e jest przeznaczony dla Linuksa z KDE, zachowanie
 przypomina kickera.
 
 %prep
-%setup -q -n %{name}
+%setup -q -n %{name}-%{version}_%{_automakever}
 
 %build
 %{__make} -f admin/Makefile.common cvs
