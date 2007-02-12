@@ -1,6 +1,6 @@
 %define		_automakever	automake1.9
 Summary:	KSmoothDock - a cool desktop panel
-Summary(pl):	KSmoothDock - przyjemny panel dla pulpitu
+Summary(pl.UTF-8):   KSmoothDock - przyjemny panel dla pulpitu
 Name:		ksmoothdock
 Version:	4.3
 Release:	1
@@ -21,11 +21,11 @@ with smooth zooming (2 modes: normal and parabolic). Its aim is to
 provide a cool alternative/complement to kicker. As it is intended for
 KDE/Linux, its behaviour will be like that of kicker.
 
-%description -l pl
+%description -l pl.UTF-8
 KSmoothDock to przyjemny panel dla pulpitu (podobnie jak kicker z KDE)
-dla KDE 3.2 z g³adkim powiêkszaniem (2 tryby: normalny i
-paraboliczny). Jego celem jest dostarczenie alternatywy/dope³nienia
-dla kickera. Jako ¿e jest przeznaczony dla Linuksa z KDE, zachowanie
+dla KDE 3.2 z gÅ‚adkim powiÄ™kszaniem (2 tryby: normalny i
+paraboliczny). Jego celem jest dostarczenie alternatywy/dopeÅ‚nienia
+dla kickera. Jako Å¼e jest przeznaczony dla Linuksa z KDE, zachowanie
 przypomina kickera.
 
 %prep
