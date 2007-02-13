@@ -1,6 +1,6 @@
 %define		_automakever	automake1.9
 Summary:	KSmoothDock - a cool desktop panel
-Summary(pl.UTF-8):   KSmoothDock - przyjemny panel dla pulpitu
+Summary(pl.UTF-8):	KSmoothDock - przyjemny panel dla pulpitu
 Name:		ksmoothdock
 Version:	4.3
 Release:	1
