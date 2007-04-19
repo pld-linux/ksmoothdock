@@ -2,12 +2,12 @@
 Summary:	KSmoothDock - a cool desktop panel
 Summary(pl.UTF-8):	KSmoothDock - przyjemny panel dla pulpitu
 Name:		ksmoothdock
-Version:	4.4
+Version:	4.5
 Release:	1
 License:	GPL v2
 Group:		X11/Applications
 Source0:	http://dl.sourceforge.net/ksmoothdock/%{name}-%{version}_%{_automakever}.tar.gz
-# Source0-md5:	d3ccf0aa898bc4a50560d047185a029d
+# Source0-md5:	7e63c3d67c598d53c39b12a3b2fd17af
 URL:		http://www.kde-look.org/content/show.php?content=6585
 BuildRequires:	kdelibs-devel
 BuildRequires:	libjpeg-devel
